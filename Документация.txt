@@ -1,0 +1,33 @@
+Глобальные настройки C:\Users\%UserName%\.gitconfig
+История Гита C:\Users\%UserName%\.bash_history
+
+Локальные натсройки репозитория .git\config
+
+Примечания
+Для изменения глобального конфига необходимо добавить ключ --global после config
+пример 
+git config --global user.name "%UserName%"
+
+1. Настройка имени и почты пользователя
+Файл config/.gitconfig
+[user]
+	name = Local
+	email = sbis@mail.ru
+Если нет данных в репозитории данные берутся с глобального конфига (в консоли явно не указано какие даннеы глобальные или локальные т.е. лучше смотреть файл конфига)
+
+Просмотр	/	Установка
+git config user.name	/	git config user.name "%UserName%"	
+git config user.email   /	git config user.email "%UserEmail%"
+
+2. Добавить альяс
+Файл config/.gitconfig
+[alias]
+	co = checkout
+Команда 
+git config alias co checkout
+
+
+
+
+
+
