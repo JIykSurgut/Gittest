@@ -26,8 +26,4 @@ git config user.email   /	git config user.email "%UserEmail%"
 Команда 
 git config alias co checkout
 
-
-
-
-
-
+return
